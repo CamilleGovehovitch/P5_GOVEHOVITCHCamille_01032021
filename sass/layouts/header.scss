@@ -1,0 +1,21 @@
+nav {
+  background-color: gold;
+  align-items: center;
+  .container {
+    .navbar-brand {
+      color: black;
+    }
+    ul {
+      li {
+        margin: auto 10px;
+        a {
+          font-size: 22px;
+          color: black!important;
+          &:hover{
+            color: lighten(black, 20)!important;
+          }
+        }
+      }
+    }
+  }
+}

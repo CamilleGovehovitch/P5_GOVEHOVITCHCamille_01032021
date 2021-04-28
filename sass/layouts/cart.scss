@@ -1,0 +1,41 @@
+.cart-summary {
+  margin: 100px 0 20px 0;
+  .container {
+    .row {
+      .cart-content {
+        .cart {
+          width: 100%;
+          .summary-container {
+            margin-bottom: 20px;
+            .summary-table {
+              width: 100%;
+            }
+          }
+        }
+      }
+      .form-container {
+        label {
+          font-weight: bold;
+        }
+        .adresse {
+          @media (min-width: 1024px) {
+            display: flex;
+            justify-content: space-between;
+            input{
+              @media (min-width: 1024px) {
+                width: 300px;
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.error {
+  border: solid 1px red;
+}
+.error-message {
+  color: red;
+}

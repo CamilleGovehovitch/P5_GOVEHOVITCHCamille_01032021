@@ -1,0 +1,21 @@
+.validation-header {
+  .validation-title{
+    h1 {
+      color: green;
+    }
+  }
+  .validation-icon {
+    svg {
+      width: 100px;
+      margin-bottom: 20px;
+      @media (min-width: 1024px) {
+        width: 200px;
+      }
+    }
+  }
+}
+.validated-message {
+  text-align: center;
+  font-size: 20px;
+  color: green;
+}
