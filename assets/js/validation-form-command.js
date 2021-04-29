@@ -20,7 +20,7 @@ const cityErr = document.getElementById('cityErr');
 const emailErr = document.getElementById('emailErr');
 
 //Regex
-const numberOnlyRegex = new RegExp('^[0-9]{1,3}');
+const numberOnlyRegex = new RegExp('^[0-9]{1,3}$');
 const emailRegex = new RegExp('^[a-z0-9._-]+@[a-z0-9._-]{2,}\\.[a-z]{2,4}$');
 const  nameRegex = new RegExp('^[a-zA-Z- ]{2,30}');
 

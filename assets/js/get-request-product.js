@@ -111,8 +111,6 @@ let getRequestApi = fetch(productUrl)
             )
 
             localStorage.setItem('cart', JSON.stringify(cart));
-
-            console.log(cart);
         })
     })
     .catch (function(error) {
